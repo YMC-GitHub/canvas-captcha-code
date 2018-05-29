@@ -20,10 +20,10 @@
 			<div id="msg"></div>
 		</div>
 
-		<script type="text/javascript" src="../lib/index.umd.js"></script>
+		<script type="text/javascript" src="./index.umd.js"></script>
 		<script>
 			// 绘制图片
-			var imageCode = new window['image-valication-code-by-canvas']();
+			var imageCode = new window['ymcCaptchaCode']();
 			imageCode.draw();
 console.log(imageCode.text);			// 监听刷新
 			document.getElementById("canvas").onclick = function(e) {

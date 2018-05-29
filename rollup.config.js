@@ -5,7 +5,7 @@ export default {
   output: {
     file: './demo/index.umd.js',
     format: 'umd',//iife|amd|cjs|umd|es6
-    name:'image-valication-code-by-canvas'
+    name:'ymcCaptchaCode'
   },
   plugins: [
     babel({
