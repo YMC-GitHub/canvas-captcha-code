@@ -1,1 +1,2 @@
-# 图片验证码——通过canvas实现
+# canvas-captcha-code
+ 🚶🏿‍make str and img with the basic of canvas. 🚶🏿‍
